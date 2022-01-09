@@ -34,6 +34,10 @@ function generatePassword() {
     //When prompted for the length of the password
     //Then choose a length of at least 8 characters and no more than 128 characters
     var passLength = prompt("How long would you like the password to be? Pick between 8 - 128 characters.")
+    if (passLength < 8 || passLength > 128) {
+        alert("please read directions properly")
+        return generatePassword()
+    }
     var lowercase = confirm("Would you like to include lower case characters in the password? ")
     if (lowercase === true) {
         charbase = charbase + loweralpArray
@@ -62,4 +66,3 @@ function generatePassword() {
 
 
 }
-console.log("anything")
