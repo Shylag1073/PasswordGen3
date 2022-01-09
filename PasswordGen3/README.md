@@ -4,7 +4,7 @@ Hello,
 
 Welcome to my Password generator website, this website gives you super secure passwords that no one will ever crack! Once you click on "Generate Password". The webpage will take you through a series of prompts that will ask you specifics questions about different characteristics regarding your new password. Please be sure to answer each prompt and follow the directions provided. Once finished, you'll see you new extra safe password that was created for you. 
 
-heres the link 
+heres the link to the live webpage below:
 ""
 
 enjoy xoxo
